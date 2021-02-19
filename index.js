@@ -243,15 +243,17 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(arr){
-  bornDiedCentury20 = []
-  for( let i = 0; i < arr.length; i++){
-    if(arr[i].includes("1901" && "1959")){
-      bornDiedCentury20.push(arr[i])
+function get20s(array){
+  let bornDiedCentury20 = [];
+  for(let i = 0; i < array.length; i++){
+    if(array[i].years.includes("190")){
+      bornDiedCentury20.push(array[i].name);
     }
-    return bornDiedCentury20
   }
+    
+  return bornDiedCentury20;
 }
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:
  1. Receive an array
@@ -298,16 +300,16 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array){
-  let newArray = []
+  let moreThan100 = []
   for(let i = 0; i < array.length; i++){
-    if(arr[i].paintings > 100){
-      newArray.push(arr[i])
+    if(array[i].paintings > 100){
+      moreThan100.push(array[i].name);
     }
-    return newArray
   }
+  return moreThan100
 }
 
-
+console.log(lotsOfArt(artists))
 
 
 // 🎨🎨 STRETCH 🎨🎨//
