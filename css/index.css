@@ -148,7 +148,7 @@ button:hover{
     }
 
     nav a{
-        font-size:1.6rem;
+        font-size:2rem;
         padding:0 5%;
     }
 
@@ -158,12 +158,19 @@ button:hover{
 
     .title-container div {
         height:40vh;
-        background-size:100%;
+        width:100%;
+        margin-bottom: 2%;
+        background-size:cover;
         background-repeat:none;
     }
 
     .title-container h1{
         font-size:4rem;
+        font-weight:bold;
+    }
+
+    .title-container hr{
+        width:100%;
     }
 
     .artists-container{
@@ -179,19 +186,16 @@ button:hover{
     }
 
     .artists-container div a{
-        font-size:2rem;
+        font-size:1.6rem;
     }
 
     div.bio{
-        margin:0 0 10%;
+        margin:3% 0 10%;
+        font-size:1.1rem;
     }
 
     .artist{
         width:100%;
-    }
-
-    .bio{
-        font-size:1.2rem;
     }
 
 }
