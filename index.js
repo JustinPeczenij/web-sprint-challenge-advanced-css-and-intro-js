@@ -250,9 +250,10 @@ function get20s(array){
       bornDiedCentury20.push(array[i].name);
     }
   }
-    
   return bornDiedCentury20;
 }
+
+console.log(get20s(artists))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:

@@ -23,7 +23,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
+1. How would you describe accessibility on the web to someone new to programming?
 
 accessibility on the web is making sure every user, even handicapped users, on every device will have a similar and positive experience using a website.
 
